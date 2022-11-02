@@ -3,7 +3,7 @@ import styles from './style'
 
 // import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components/index";
 import Navbar from "./components/Navbar";
-
+import Hero from "./components/Hero";
 
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Hero /> */}
+        <Hero />
       </div>
     </div>
     
