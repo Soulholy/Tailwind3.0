@@ -4,7 +4,7 @@ import styles from './style'
 // import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components/index";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
+import States from "./components/Stat"
 
 export default function App() {
   return (
@@ -23,14 +23,7 @@ export default function App() {
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer /> */}
+       <States />
       </div>
     </div>
   </div>
