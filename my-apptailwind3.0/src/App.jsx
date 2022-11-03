@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './style'
 
-// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components/index";
+ //import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import States from "./components/Stat"
+import Business from './components/bussiness'
+import Billing from './components/billing'
+import CardDeal from './components/CardDeal'
 
 export default function App() {
   return (
@@ -24,8 +27,12 @@ export default function App() {
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
        <States />
+       <Business />
+       <Billing />
+       <CardDeal />
       </div>
     </div>
+
   </div>
   )
 }
